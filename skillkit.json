@@ -1,0 +1,91 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lockout",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "rules and regulations",
+                        "regulations",
+                        "rules",
+                        "instructions"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "start",
+                    "slots": [],
+                    "samples": [
+                        "go through the game",
+                        "start new game",
+                        "play game",
+                        "start",
+                        "start game"
+                    ]
+                },
+                {
+                    "name": "leadboard",
+                    "slots": [],
+                    "samples": [
+                        "open leadboard"
+                    ]
+                },
+                {
+                    "name": "answer",
+                    "slots": [
+                        {
+                            "name": "lockoutanswer",
+                            "type": "LITERAL"
+                        }
+                    ],
+                    "samples": [
+                        "the answer is {sample|lockoutanswer}",
+                        "my answer is {sample|lockoutanswer}",
+                        "it's {sample|lockoutanswer}",
+                        "it is {sample|lockoutanswer}",
+                        "answer {sample|lockoutanswer}",
+                        "answer is {sample|lockoutanswer}"
+                    ]
+                },
+                {
+                    "name": "fire",
+                    "slots": [],
+                    "samples": [
+                        "fire gate",
+                        "fire",
+                        "fire path"
+                    ]
+                },
+                {
+                    "name": "water",
+                    "slots": [],
+                    "samples": [
+                        "water gate",
+                        "water path",
+                        "water way"
+                    ]
+                },
+                {
+                    "name": "jungle",
+                    "slots": [],
+                    "samples": [
+                        "jungle gate",
+                        "jungle",
+                        "forest",
+                        "jungle way",
+                        "jungle path"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
